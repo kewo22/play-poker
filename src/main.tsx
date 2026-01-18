@@ -5,7 +5,7 @@ import App from './App'
 import { registerSW } from 'virtual:pwa-register'
 
 // Register service worker
-registerSW({ 
+registerSW({
   immediate: true,
   onRegistered(r) {
     console.log('Service Worker registered', r)
