@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Button } from 'antd'
+import { useState } from "react";
+import viteLogo from "/vite.svg";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+import { Button } from "antd";
 
 function App() {
-  const [count, setCount] = useState<number>(0)
+	const [count, setCount] = useState<number>(0);
 
-  return (
-    <>
-     <Button type="primary">Button</Button>
-      {/* <div className=''>
+	return (
+		<>
+			<Button type="primary">Button</Button>
+			{/* <div className=''>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -30,8 +30,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-    </>
-  )
+		</>
+	);
 }
 
-export default App
+export default App;
